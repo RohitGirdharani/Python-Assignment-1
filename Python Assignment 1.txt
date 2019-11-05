@@ -1,0 +1,37 @@
+Q#1)
+print("Twinkle, twinke, little star,\n\tHow I wonder what you are!\n\t\tUp above the world so high,\n\t\tLike a diamond in the sky.\nTwinkle, twinkle, little star,\n\tHow I wonder what you are")
+
+
+Q#2)
+import sys
+print(sys.version)
+
+
+Q#3)
+import datetime
+date_time = datetime.datetime.now()
+print(date_time)
+
+
+Q#4) 
+print("Enter the Radius of Circle:\t")
+radius=float(input())
+area=float (3.14*radius)
+print('%0.2f' %area)
+
+
+Q#5)
+print("Enter your First Name:\t")
+First_Name = input()
+print("Enter your Last Name:\t")
+Last_Name=input()
+print(Last_Name + " " + First_Name)
+
+
+Q#6)
+print("Enter First Value:\t")
+First_Value = float(input())
+print("Enter Second Value:\t")
+Last_Value= float(input())
+Sum= First_Value + Last_Value
+print('%0.4f'%Sum)
